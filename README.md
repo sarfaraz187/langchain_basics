@@ -27,7 +27,7 @@ pip install uv
 ### 2. Clone the repository
 
 ```bash
-git clone https://github.com/sarfaraz187/langchain_basics.git
+git clone <your-repository-url>
 cd langchain_basics
 ```
 
