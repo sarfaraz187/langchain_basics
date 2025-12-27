@@ -1,0 +1,10 @@
+[project]
+name = "langchain-basics"
+version = "0.1.0"
+description = "A starter template for LangChain with OpenAI integration"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain>=1.2.0",
+    "langchain-openai>=1.1.6",
+    "python-dotenv>=1.2.1",
+]
