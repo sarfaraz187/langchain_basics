@@ -5,7 +5,8 @@ from langchain.tools import tool
 @tool
 def square_root(x: float) -> float:
     """Calculate the square root of a number"""
-    return x ** 0.5
+    return x**0.5
+
 
 agent = create_agent(
     model="gpt-5-nano",
@@ -15,4 +16,3 @@ agent = create_agent(
         "Use your tools to calculate the square root and square of any number."
     ),
 )
-
