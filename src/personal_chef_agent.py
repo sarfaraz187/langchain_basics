@@ -17,6 +17,8 @@ from tavily import TavilyClient
 
 tavily_client = TavilyClient()
 
+model = "gpt-4o-mini"
+
 
 @tool
 def web_search(query: str) -> Dict[str, Any]:
@@ -56,7 +58,7 @@ Guidelines:
 """
 
 personal_chef_agent = create_agent(
-    model="gpt-5-nano",
+    model=model,
     tools=[web_search],
     system_prompt=system_prompt,
     checkpointer=InMemorySaver(),
