@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "anthropic>=0.75.0",
+    "arxiv>=2.3.1",
     "httpx>=0.28.1",
     "langchain>=1.2.0",
     "langchain-community>=0.4.1",
